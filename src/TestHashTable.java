@@ -16,6 +16,7 @@ public class TestHashTable {
             table.put(key, student);
         }
 
+
         // Вывод количества элементов в каждой корзине
         for (int i = 0; i < 11; i++) {
             System.out.println("Bucket " + i + " has " + table.getBucketSize(i) + " elements.");
